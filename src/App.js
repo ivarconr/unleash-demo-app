@@ -33,7 +33,8 @@ class App extends Component {
       step1: this.props.unleash.isEnabled('demoApp.step1'),
       step2: this.props.unleash.isEnabled('demoApp.step2'),
       step3: this.props.unleash.isEnabled('demoApp.step3'),
-      step4: this.props.unleash.getVariant('demoApp.step4').name
+      step4: this.props.unleash.getVariant('demoApp.step4').enabled,
+      step4Variant: this.props.unleash.getVariant('demoApp.step4').name
     }
     this.setState({toggles});
   }

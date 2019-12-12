@@ -4,6 +4,7 @@ class Gradual extends Component {
   render() {
 
    const toggle = this.props.toggles.step4;
+   const variant = this.props.toggles.step4Variant;
    const userId = this.props.userId;
 
  
@@ -24,10 +25,12 @@ class Gradual extends Component {
                <p>
                   Your task is to locate the feature toggle named <span className="black"> demoApp.step4</span> and play with the variants.
                </p>
-
                <h4>
-                  <span className="black">demoApp.step4</span> got variant <span className="green">{toggle}</span>  for userId {userId}
+                  <span className="black">demoApp.step4</span> is {toggle ? <span className="green"> enabled</span>: <span className="red">disabled</span>} for userId {userId}
                </h4>
+
+               {toggle? <div>Variant select was "<span className="black">{variant}</span>"</div> : null }
+
             </div>
          </div>
       </section>

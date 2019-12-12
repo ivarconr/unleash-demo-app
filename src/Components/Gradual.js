@@ -27,6 +27,8 @@ class Gradual extends Component {
                   the rollout percentage.
                </p>
 
+
+               {toggle ? <img src="/images/demo3.png" alt="" /> : null}
                <h4>
                   <span className="white">demoApp.step3</span> is {toggle ? <span className="green"> enabled</span>: <span className="red">disabled</span>}  for userId {userId}
                </h4>

@@ -29,6 +29,7 @@ class UserWithId extends Component {
                   <span className="black">demoApp.step2</span> is {toggle ? <span className="green"> enabled</span>: <span className="red">disabled</span>} for userId {userId}
                </h4>
                
+               {toggle ? <img src="/images/demo2.jpg" alt="" /> : null}
             </div>
          </div>
       </section>
