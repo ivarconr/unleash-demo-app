@@ -14,8 +14,8 @@ class Enable extends Component {
                <h2>Step 1: Enable/disable feature toggle</h2>
 
                <p>
-                  The simplest way to use a feature toggle is to enable or disable it for everyone (on/off). 
-                  We us the <span className="white"> default </span> activation strategy to achive this.
+                  The simplest way to use a feature toggles is to enable or disable it for everyone (on/off). 
+                  We us the <span className="white"> default </span> activation strategy to do this.
 
                </p>
                <p>

@@ -17,13 +17,13 @@ class Gradual extends Component {
                <h2>Step 3: Gradual rollout</h2>
 
                <p>
-                  Sometimes we want to expose a new feature to a percentage of real users. This is a nice way to start testing the feature, without taking to much risk. 
-                  We us the <span className="white"> flexibleRollout </span> strategy to do this. With this strategy you can define the percentage of your users you want to 
+                  Sometimes we want to expose a new feature to a percentage of our users. This is a nice way to start testing the new feature, without taking too much risk. 
+                  We us the <span className="white"> flexibleRollout </span> strategy for this. With this strategy you can define the percentage of your users you want to 
                   expose your new toggle for. 
                </p>
                <p>
                   Your task is to locate the feature toggle named <span className="white"> demoApp.step3</span> and play with the percentage rollout. The unleash SDKs 
-                  gurantees stickiness for users, which means that if a user is considered within a target group this will be in that group as long as you increase 
+                  guarantees stickiness for users, which means that if a user is considered within a target group she will be in that group as long as you increase 
                   the rollout percentage.
                </p>
 
