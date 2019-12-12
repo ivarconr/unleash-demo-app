@@ -18,15 +18,15 @@ class UserWithId extends Component {
 
                <p>
                   When we have deployed some new code to production it would be nice to enable the new feature for ourselves before we enable it to everyone else. 
-                  To achieve this in unleash we use the  <span class="black"> userWithId </span> activation strategy.
+                  To achieve this in unleash we use the  <span className="black"> userWithId </span> activation strategy.
                </p>
                <p>
-                  Your task is to locate the feature toggle named <span class="black"> demoApp.step2 </span>  and configure the 
-                  <span class="black"> userWithId </span> activation strategy to also include your userId wich is <span class="black">{userId}</span>
+                  Your task is to locate the feature toggle named <span className="black"> demoApp.step2 </span>  and configure the 
+                  <span className="black"> userWithId </span> activation strategy to also include your userId wich is <span className="black">{userId}</span>
                   
                </p>
                <h4>
-                  <span class="black">demoApp.step2</span> is {toggle ? <span class="green"> enabled</span>: <span class="red">disabled</span>} for userId {userId}
+                  <span className="black">demoApp.step2</span> is {toggle ? <span className="green"> enabled</span>: <span className="red">disabled</span>} for userId {userId}
                </h4>
                
             </div>

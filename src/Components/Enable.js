@@ -15,16 +15,16 @@ class Enable extends Component {
 
                <p>
                   The simplest way to use a feature toggle is to enable or disable it for everyone (on/off). 
-                  We us the <span class="white"> default </span> activation strategy to achive this.
+                  We us the <span className="white"> default </span> activation strategy to achive this.
 
                </p>
                <p>
-                  Your task is to locate the feature toggle named <span class="white"> demoApp.step1 </span> 
+                  Your task is to locate the feature toggle named <span className="white"> demoApp.step1 </span> 
                   and try to enable and disable the feature toggle. Make sure you are using the "default" activation strategy.
                </p>
 
                <h4>
-                  <span class="white">demoApp.step1</span> is {this.props.toggles.step1 ? <span class="green"> enabled</span>: <span class="red">disabled</span>}
+                  <span className="white">demoApp.step1</span> is {this.props.toggles.step1 ? <span className="green"> enabled</span>: <span className="red">disabled</span>}
                </h4>
             </div>
          </div>

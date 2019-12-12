@@ -18,17 +18,17 @@ class Gradual extends Component {
 
                <p>
                   Sometimes we want to expose a new feature to a percentage of real users. This is a nice way to start testing the feature, without taking to much risk. 
-                  We us the <span class="white"> flexibleRollout </span> strategy to do this. With this strategy you can define the percentage of your users you want to 
+                  We us the <span className="white"> flexibleRollout </span> strategy to do this. With this strategy you can define the percentage of your users you want to 
                   expose your new toggle for. 
                </p>
                <p>
-                  Your task is to locate the feature toggle named <span class="white"> demoApp.step3</span> and play with the percentage rollout. The unleash SDKs 
+                  Your task is to locate the feature toggle named <span className="white"> demoApp.step3</span> and play with the percentage rollout. The unleash SDKs 
                   gurantees stickiness for users, which means that if a user is considered within a target group this will be in that group as long as you increase 
                   the rollout percentage.
                </p>
 
                <h4>
-                  <span class="white">demoApp.step3</span> is {toggle ? <span class="green"> enabled</span>: <span class="red">disabled</span>}  for userId {userId}
+                  <span className="white">demoApp.step3</span> is {toggle ? <span className="green"> enabled</span>: <span className="red">disabled</span>}  for userId {userId}
                </h4>
             </div>
          </div>

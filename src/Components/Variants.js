@@ -18,15 +18,15 @@ class Gradual extends Component {
 
                <p>
                   Sometimes we want to expose a new feature to a percentage of real users. This is a nice way to start testing the feature, without taking to much risk. 
-                  We us the <span class="black"> Variants </span> to do this. You can define as many varaints for a feture toggle as you want and the users will be spread 
+                  We us the <span className="black"> Variants </span> to do this. You can define as many varaints for a feture toggle as you want and the users will be spread 
                   equally across variants. 
                </p>
                <p>
-                  Your task is to locate the feature toggle named <span class="black"> demoApp.step4</span> and play with the variants.
+                  Your task is to locate the feature toggle named <span className="black"> demoApp.step4</span> and play with the variants.
                </p>
 
                <h4>
-                  <span class="black">demoApp.step4</span> got variant <span className="green">{toggle}</span>  for userId {userId}
+                  <span className="black">demoApp.step4</span> got variant <span className="green">{toggle}</span>  for userId {userId}
                </h4>
             </div>
          </div>
