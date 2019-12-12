@@ -16,7 +16,7 @@ if(!userId) {
 const unleash = new UnleashClient({
     url: 'https://app.unleash-hosted.com/demo/proxy',
     clientKey: 'proxy-123',
-    refreshInterval: 3,
+    refreshInterval: 2,
     appName: 'react-app'
 });
 unleash.updateContext({userId});
