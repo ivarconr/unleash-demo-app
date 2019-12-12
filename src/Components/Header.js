@@ -32,7 +32,7 @@ class Header extends Component {
          <div className="banner-text">
             <h1 className="responsive-headline">Unleash-Hosted Demo</h1>
             <h3>This is a demo-app for Unleash-hosted.<br /> You can use the free demo instance to control this application.</h3>
-            <h2><a href="https://app.unleash-hosted.com/demo" target="_blank" rel="noopener noreferrer">https://eu.unleash-hosted.com/demo</a></h2>
+            <h2><a href="https://app.unleash-hosted.com/demo" target="_blank" rel="noopener noreferrer">https://app.unleash-hosted.com/demo</a></h2>
             <hr />
             <ul className="social">
                {networks}
