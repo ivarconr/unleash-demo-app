@@ -18,18 +18,19 @@ class Gradual extends Component {
                <h2>Step 4: Variants</h2>
 
                <p>
-                  Sometimes we want to expose a new feature to a percentage of real users. This is a nice way to start testing the feature, without taking to much risk. 
-                  We us the <span className="black"> Variants </span> to do this. You can define as many varaints for a feture toggle as you want and the users will be spread 
-                  equally across variants. 
+                  When we want to test multiple variants of a feature a standard feature toggle returning true/false is simply not enough. In Unleash you 
+                  can define <span className="black"> Variants </span> for a feature toggle. You will then  get a variant object back if the toggle is enabled. 
                </p>
                <p>
-                  Your task is to locate the feature toggle named <span className="black"> demoApp.step4</span> and play with the variants.
+                  Your task is to locate the feature toggle named <span className="black"> demoApp.step4</span> and play with the variants. Remember that the same user will be 
+                  assigned the same variant, as long as you don't change the number of variants. 
                </p>
                <h4>
                   <span className="black">demoApp.step4</span> is {toggle ? <span className="green"> enabled</span>: <span className="red">disabled</span>} for userId {userId}
                </h4>
 
-               {toggle? <div>Variant select was "<span className="black">{variant}</span>"</div> : null }
+               {toggle? <div>Variant select for userId {userId}:<br /> <span className="box" style={{backgroundColor: variant}}>{variant}</span></div> : null }
+               
 
             </div>
          </div>

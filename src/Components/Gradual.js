@@ -18,7 +18,7 @@ class Gradual extends Component {
 
                <p>
                   Sometimes we want to expose a new feature to a percentage of our users. This is a nice way to start testing the new feature, without taking too much risk. 
-                  We us the <span className="white"> flexibleRollout </span> strategy for this. With this strategy you can define the percentage of your users you want to 
+                  We use the <span className="white"> flexibleRollout strategy</span> for this. With this strategy you can define the percentage of your users you want to 
                   expose your new toggle for. 
                </p>
                <p>
