@@ -18,6 +18,7 @@ const unleash = new UnleashClient({
     clientKey: 'proxy-123',
     refreshInterval: 2,
     appName: 'react-app',
+    environment: 'production',
 });
 unleash.updateContext({userId});
 unleash.start();
