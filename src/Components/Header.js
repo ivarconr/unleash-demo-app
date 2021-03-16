@@ -34,8 +34,7 @@ class Header extends Component {
             <h1 className="responsive-headline">Unleash-Hosted Demo</h1>
             <h3>This is a single page application written in react.js. It uses events to automatically detect changes and updates the UI without a full page reload.</h3>
             <br />
-            <h3>Environment: <pre>{environment}</pre></h3>
-            <h2><a href="https://app.unleash-hosted.com/demo" target="_blank" rel="noopener noreferrer" className="link">https://app.unleash-hosted.com/demo</a></h2>
+            <h2>Environment: <pre>{environment}</pre></h2>
             <hr />
             <ul className="social">
                {networks}
