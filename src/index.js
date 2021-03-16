@@ -16,7 +16,7 @@ if(!userId) {
 
 const unleash = new UnleashClient({
     url: unleashUrl,
-    clientKey: 'proxy-123',
+    clientKey,
     refreshInterval: 2,
     appName: 'react-app',
     environment,
