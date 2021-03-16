@@ -33,6 +33,7 @@ class App extends Component {
       step1: this.props.unleash.isEnabled('demoApp.step1'),
       step2: this.props.unleash.isEnabled('demoApp.step2'),
       step3: this.props.unleash.isEnabled('demoApp.step3'),
+      readyToOrder: this.props.unleash.isEnabled('demoApp.readyToOrder'),
       step4: this.props.unleash.getVariant('demoApp.step4').enabled,
       step4Variant: this.props.unleash.getVariant('demoApp.step4').name
     }
@@ -66,7 +67,7 @@ class App extends Component {
         <UserWithId toggles={this.state.toggles} userId={this.props.userId} />
         <Gradual toggles={this.state.toggles} userId={this.props.userId} />
         <Variants toggles={this.state.toggles} userId={this.props.userId} />
-        <Contact />
+        <Contact toggles={this.state.toggles} userId={this.props.userId} />
         <Footer data={this.state.resumeData.main}/>
       </div>
     );
