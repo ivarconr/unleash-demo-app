@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 import { UnleashClient } from 'unleash-proxy-client';
+import { environment, clientKey, unleashUrl } from './constants';
 
 
 let userId = localStorage.getItem('userId');
@@ -14,11 +15,11 @@ if(!userId) {
 };
 
 const unleash = new UnleashClient({
-    url: 'https://app.unleash-hosted.com/demo/proxy',
+    url: unleashUrl,
     clientKey: 'proxy-123',
     refreshInterval: 2,
     appName: 'react-app',
-    environment: 'production',
+    environment,
 });
 unleash.updateContext({userId});
 unleash.start();
